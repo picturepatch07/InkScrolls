@@ -1,12 +1,16 @@
 import React from "react";
-import logo from "./logo.svg";
-import { Counter } from "./features/counter/Counter";
 import "./App.css";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Homepage from "./components/HomePage/Homepage";
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello </h1>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/getting-started" element={<Homepage />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
