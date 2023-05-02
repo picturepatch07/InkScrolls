@@ -1,12 +1,13 @@
 import React from "react";
-import logo from "../../assets/logo.png";
+import "./Header.css";
+import logo from "../../assets/logo.svg";
 
 const Header = () => {
   return (
     <header>
       <div className="header">
         <div className="header-left">
-          <img src={logo} alt="logo" />
+          <img className="header-left-image" src={logo} alt="logo" />
         </div>
         <div className="header-right">
           <div className="header-right-options">
