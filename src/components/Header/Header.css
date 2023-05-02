@@ -15,7 +15,7 @@
 
 .header-left-image {
     width: 100%;
-    height: 140px;
+    height: 75px;
     border-radius: 50%;
 }
 
@@ -24,7 +24,7 @@
     align-items: center;
 }
 
-.header-right-options-button {
+.header-right-options {
     display: flex;
     align-items: center;
 }
@@ -39,7 +39,7 @@
     margin: 0px 10px;
 }
 
-.header-right-started>span>button {
+.header-right-started > span > button {
     outline: none;
     border: none;
     padding: 10px 15px;
