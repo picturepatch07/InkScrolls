@@ -1,4 +1,5 @@
 import React from "react";
+import "./Recommended.css";
 
 const Recommended = () => {
   return (
@@ -39,11 +40,14 @@ const Recommended = () => {
             <div className="rcm-posts">
               <div className="rcm-post">
                 <div className="rcm-post-left">
-                  <span>1</span>
+                  <span>01</span>
                 </div>
                 <div className="rcm-post-right">
                   <div className="rcm-post-content">
-                    <div className="rcm-post-top"></div>
+                    <div className="rcm-post-top">
+                      <img src="" alt="logo" />
+                      <span>Username Blog</span>
+                    </div>
                   </div>
                 </div>
               </div>
