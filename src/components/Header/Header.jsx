@@ -1,8 +1,23 @@
 import React from "react";
 import "./Header.css";
 import logo from "../../assets/logo.svg";
+import { AuthModal } from "../Modal/AuthModal";
 
 const Header = () => {
+  const [isOpen, setIsOpen] = React.useState(false);
+
+  const handleCancel = () => {
+    setIsOpen(false);
+  };
+
+  const handleOk = () => {
+    setIsOpen(false);
+  };
+
+  const showModal = () => {
+    setIsOpen(true);
+  };
+
   return (
     <header>
       <div className="header">
@@ -21,11 +36,11 @@ const Header = () => {
               <span>Write</span>
             </div>
             <div className="header-right-option">
-              <span>Sign In</span>
+              <span onClick={showModal}>Sign In</span>
             </div>
             <div className="header-right-started">
               <span>
-                <button>Get Started</button>
+                <button onClick={showModal}>Get Started</button>
               </span>
             </div>
           </div>
