@@ -48,6 +48,164 @@ const Recommended = () => {
                       <img src="" alt="logo" />
                       <span>Username Blog</span>
                     </div>
+                    <div className="content">
+                      <p>This is the test title</p>
+                    </div>
+                    <div className="footer">
+                      <span>01 08 2023 | 2 min read</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="rcm-post">
+                <div className="rcm-post-left">
+                  <span>01</span>
+                </div>
+                <div className="rcm-post-right">
+                  <div className="rcm-post-content">
+                    <div className="rcm-post-top">
+                      <img src="" alt="logo" />
+                      <span>Username Blog</span>
+                    </div>
+                    <div className="content">
+                      <p>This is the test title</p>
+                    </div>
+                    <div className="footer">
+                      <span>01 08 2023 | 2 min read</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="rcm-post">
+                <div className="rcm-post-left">
+                  <span>01</span>
+                </div>
+                <div className="rcm-post-right">
+                  <div className="rcm-post-content">
+                    <div className="rcm-post-top">
+                      <img src="" alt="logo" />
+                      <span>Username Blog</span>
+                    </div>
+                    <div className="content">
+                      <p>This is the test title</p>
+                    </div>
+                    <div className="footer">
+                      <span>01 08 2023 | 2 min read</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="rcm-post">
+                <div className="rcm-post-left">
+                  <span>01</span>
+                </div>
+                <div className="rcm-post-right">
+                  <div className="rcm-post-content">
+                    <div className="rcm-post-top">
+                      <img src="" alt="logo" />
+                      <span>Username Blog</span>
+                    </div>
+                    <div className="content">
+                      <p>This is the test title</p>
+                    </div>
+                    <div className="footer">
+                      <span>01 08 2023 | 2 min read</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="rcm-post">
+                <div className="rcm-post-left">
+                  <span>01</span>
+                </div>
+                <div className="rcm-post-right">
+                  <div className="rcm-post-content">
+                    <div className="rcm-post-top">
+                      <img src="" alt="logo" />
+                      <span>Username Blog</span>
+                    </div>
+                    <div className="content">
+                      <p>This is the test title</p>
+                    </div>
+                    <div className="footer">
+                      <span>01 08 2023 | 2 min read</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="rcm-post">
+                <div className="rcm-post-left">
+                  <span>01</span>
+                </div>
+                <div className="rcm-post-right">
+                  <div className="rcm-post-content">
+                    <div className="rcm-post-top">
+                      <img src="" alt="logo" />
+                      <span>Username Blog</span>
+                    </div>
+                    <div className="content">
+                      <p>This is the test title</p>
+                    </div>
+                    <div className="footer">
+                      <span>01 08 2023 | 2 min read</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="rcm-post">
+                <div className="rcm-post-left">
+                  <span>01</span>
+                </div>
+                <div className="rcm-post-right">
+                  <div className="rcm-post-content">
+                    <div className="rcm-post-top">
+                      <img src="" alt="logo" />
+                      <span>Username Blog</span>
+                    </div>
+                    <div className="content">
+                      <p>This is the test title</p>
+                    </div>
+                    <div className="footer">
+                      <span>01 08 2023 | 2 min read</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="rcm-post">
+                <div className="rcm-post-left">
+                  <span>01</span>
+                </div>
+                <div className="rcm-post-right">
+                  <div className="rcm-post-content">
+                    <div className="rcm-post-top">
+                      <img src="" alt="logo" />
+                      <span>Username Blog</span>
+                    </div>
+                    <div className="content">
+                      <p>This is the test title</p>
+                    </div>
+                    <div className="footer">
+                      <span>01 08 2023 | 2 min read</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="rcm-post">
+                <div className="rcm-post-left">
+                  <span>01</span>
+                </div>
+                <div className="rcm-post-right">
+                  <div className="rcm-post-content">
+                    <div className="rcm-post-top">
+                      <img src="" alt="logo" />
+                      <span>Username Blog</span>
+                    </div>
+                    <div className="content">
+                      <p>This is the test title</p>
+                    </div>
+                    <div className="footer">
+                      <span>01 08 2023 | 2 min read</span>
+                    </div>
                   </div>
                 </div>
               </div>
