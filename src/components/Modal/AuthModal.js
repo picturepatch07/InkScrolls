@@ -1,22 +1,17 @@
 import React from "react";
-import "react-responsive-modal/styles.css";
-import { Modal } from "react-responsive-modal";
-import "./AuthModal.css";
+import { Modal } from "antd";
+import "antd/dist/reset.css";
 
-const AuthModal = ({
-  isopen,
-  setOpen,
-  signInPopup,
-  handleCancel,
-  handleOk,
-}) => {
+function AuthModal({ isOpen, handleCancel, handleOk }) {
   return (
-    <Modal open={isopen} center onClose={handleCancel}>
-      <div className="modal">
-        <p>Testing Modal</p>
-      </div>
-    </Modal>
+    <div>
+      <Modal open={isOpen} centered onCancel={handleCancel} onOk={handleOk}>
+        <div className="modal">
+          <p>Testing Modal</p>
+        </div>
+      </Modal>
+    </div>
   );
-};
+}
 
 export default AuthModal;
