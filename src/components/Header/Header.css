@@ -13,7 +13,17 @@
   align-items: center;
 }
 
+.header-left-image {
+  width: 35%;
+  margin-right: 10px;
+}
+
 .header-right {
+  display: flex;
+  align-items: center;
+}
+
+.header-right-options {
   display: flex;
   align-items: center;
 }
