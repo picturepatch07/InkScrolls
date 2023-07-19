@@ -46,11 +46,13 @@
 .header-right-started > span > button {
   outline: none;
   border: none;
+  margin-left: 1rem;
   padding: 10px 15px;
   background-color: #000;
   color: #fff;
   border-radius: 33px;
   font-size: 15px;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 600px) {

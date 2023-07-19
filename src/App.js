@@ -3,6 +3,8 @@ import { useEffect } from "react";
 import "./App.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Homepage from "./components/HomePage/Homepage";
+import LandPage from "./components/LandPage/index";
+import PrivateRoute from "./helper/privateRoutes";
 import { useDispatch } from "react-redux";
 import { auth } from "./firebase";
 import { login } from "./features/userSlice";
@@ -26,6 +28,16 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/getting-started" element={<Homepage />} />
+        </Routes>
+        <Routes>
+          <Route
+            path="/"
+            element={
+              <PrivateRoute>
+                <LandPage />
+              </PrivateRoute>
+            }
+          />
         </Routes>
       </BrowserRouter>
     </div>
