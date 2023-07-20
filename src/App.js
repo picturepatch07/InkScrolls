@@ -30,14 +30,7 @@ function App() {
           <Route path="/getting-started" element={<Homepage />} />
         </Routes>
         <Routes>
-          <Route
-            path="/"
-            element={
-              <PrivateRoute>
-                <LandPage />
-              </PrivateRoute>
-            }
-          />
+          <Route path="/" element={<LandPage />} />
         </Routes>
       </BrowserRouter>
     </div>

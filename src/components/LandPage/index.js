@@ -1,7 +1,12 @@
 import React from "react";
+import LandHeader from "./LandHeader";
 
 const index = () => {
-  return <div>This is visible</div>;
+  return (
+    <div>
+      <LandHeader />
+    </div>
+  );
 };
 
 export default index;

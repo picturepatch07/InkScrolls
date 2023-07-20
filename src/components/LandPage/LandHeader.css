@@ -1,0 +1,9 @@
+.landHeader {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-around;
+  background-color: rgb(255, 255, 255);
+  padding: 20px 0px;
+  box-shadow: 2px 8px 8px rgba(233, 232, 232, 0.5);
+}
