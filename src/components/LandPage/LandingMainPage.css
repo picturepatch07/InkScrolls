@@ -10,13 +10,12 @@
   display: flex;
   flex-direction: row;
   width: 100%;
-  max-width: 100px;
+  min-width: 100px;
 }
 
 .landing-main-left {
   display: flex;
   flex-direction: column;
-  flex: 0.7;
   border-right: 1px solid #f0f0f0;
   padding-right: 20px;
 }
@@ -27,4 +26,70 @@
   width: 100%;
   margin: 10px 0;
   border-bottom: 1px solid rgb(8, 8, 8);
+}
+
+.tab {
+  margin: 10px 0;
+  color: rgb(207, 207, 207);
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.active {
+  color: rgb(8, 8, 8);
+  font-weight: 700;
+}
+
+.landing-write-story {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 20px;
+  background-color: rgb(236, 236, 236);
+}
+
+.landing-write-story > h6 {
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.landing-write-story > a > button {
+  padding: 10px 15px;
+  margin: 0px 5px;
+  min-width: fit-content;
+  border-radius: 33px;
+  border: 1px solid rgba(8, 8, 8, 1);
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+.landing-recommended-posts {
+  margin: 30px 0px;
+}
+
+.landing-main-right {
+  display: flex;
+  flex: 0.3;
+  flex-direction: column;
+  margin-left: 20px;
+  margin: 20px 20px;
+}
+
+.recommended-topics {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.recommended-topics > h2 {
+  font-weight: 500;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.recommended-topics > .topic {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
