@@ -93,3 +93,47 @@
   flex-direction: row;
   flex-wrap: wrap;
 }
+
+.topic > span {
+  padding: 7px 20px;
+  background-color: #f0f0f0;
+  margin: 10px;
+  border-radius: 33px;
+  cursor: pointer;
+  align-items: center;
+}
+
+.landing-main-right > .follow > h2 {
+  font-size: 18x;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.follow-content {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.follow-content > .info {
+  margin: 0px 10px;
+}
+
+.follow-content > .info > h3 {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.follow-content > .info > span {
+  font-size: 12px;
+  color: rgb(207, 207, 207);
+}
+
+.follow-content > button {
+  padding: 7px 15px;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.568);
+  border-radius: 33px;
+  cursor: pointer;
+}
