@@ -3,12 +3,12 @@
 InkScrolls is built using React, Node.js, MongoDB and Mongoose. It allows users to create, read, update, and delete articles. This repository contains the frontend part of the website.
 
 ## Table of Contents
-Demo
-Features
-Technologies Used
-Installation
-Usage
-Contributing
+1. Demo
+2. Features
+3. Technologies Used
+4. Installation
+5. Usage
+6. Contributing
 
 ## Features
 1. User registration and authentication.
