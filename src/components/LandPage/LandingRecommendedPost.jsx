@@ -1,9 +1,27 @@
 import React from "react";
 import { Tooltip } from "antd";
 import moment from "moment";
+import reactHtmlParser from "react-html-parser";
+import axios from "axios";
 import { Link, useNavigate } from "react-router-dom";
 
-const LandingRecommendedPost = () => {
+const LandingRecommendedPost = ({ data, userDetails }) => {
+  const navigate = useNavigate();
+  const addToList = async (id) => {
+    const body = {
+      userid: userDetails?._id,
+    };
+    await axios
+      .post(`/api/user/list/${id}`, body)
+      .then((res) => {
+        console.log("list added successfully");
+        navigate("/me/lists");
+      })
+      .catch((err) => {
+        console.log(err.response.data.message);
+      });
+  };
+
   return (
     <div className="landing-recommended-post">
       <div className="landing-recommended-post-container">
