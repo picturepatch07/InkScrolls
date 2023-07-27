@@ -4,6 +4,10 @@ import "./LandingMainPage.css";
 
 const LandingMainPage = () => {
   const [tab, setTab] = useState(0);
+  const [stories, setStories] = useState();
+  const [users, setUsers] = useState();
+  const [loading, setLoading] = useState(true);
+  const [userLoading, setUserLoading] = useState(true);
 
   return (
     <div className="landing-main">
