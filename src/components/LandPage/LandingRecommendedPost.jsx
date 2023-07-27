@@ -4,6 +4,7 @@ import moment from "moment";
 import reactHtmlParser from "react-html-parser";
 import axios from "axios";
 import { Link, useNavigate } from "react-router-dom";
+import "./LandingRecommendedPost.css";
 
 const LandingRecommendedPost = ({ data, userDetails }) => {
   const navigate = useNavigate();
