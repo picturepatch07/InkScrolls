@@ -27,4 +27,4 @@ HTML, CSS, JavaScript<br>
 Node.js<br>
 Express.js<br>
 MongoDB (database)<br>
-Mongoose (ODM)<br>
+Mongoose <br>
