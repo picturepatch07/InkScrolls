@@ -3,7 +3,8 @@
   align-items: center;
   width: 100%;
   justify-content: space-around;
-  background-color: rgb(196 226 255);
+  /* background-color: rgb(196 226 255); */
+  background-color: #ffc017;
   padding: 4px 0px;
   border-bottom: 1px solid #000;
 }

@@ -8,6 +8,7 @@ import PrivateRoute from "./helper/privateRoutes";
 import { useDispatch } from "react-redux";
 import { auth } from "./firebase";
 import { login } from "./features/userSlice";
+import Creator from "./components/Creators/Creator";
 
 function App() {
   const dispatch = useDispatch();
@@ -31,6 +32,9 @@ function App() {
         </Routes>
         <Routes>
           <Route path="/" element={<LandPage />} />
+        </Routes>
+        <Routes>
+          <Route path="/creators" element={<Creator />} />
         </Routes>
       </BrowserRouter>
     </div>
