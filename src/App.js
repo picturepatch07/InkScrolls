@@ -9,6 +9,7 @@ import { useDispatch } from "react-redux";
 import { auth } from "./firebase";
 import { login } from "./features/userSlice";
 import Creator from "./components/Creators/Creator";
+import Membership from "./components/Membership/Membership";
 
 function App() {
   const dispatch = useDispatch();
@@ -35,6 +36,9 @@ function App() {
         </Routes>
         <Routes>
           <Route path="/creators" element={<Creator />} />
+        </Routes>
+        <Routes>
+          <Route path="/membership" element={<Membership />}></Route>
         </Routes>
       </BrowserRouter>
     </div>
